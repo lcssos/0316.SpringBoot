@@ -1,0 +1,6 @@
+logging:
+ file: spring-boot-demo.log
+ path: /Users/lcssos
+ level:
+  org.springframework.web: INFO
+  org.mybatis: DEBUG

@@ -1,0 +1,17 @@
+spring:
+ application:
+  name: spring-boot-demo
+ thymeleaf:
+  enabled:  true
+  cache:  false
+ profiles:
+  include: foo,datasource,log
+
+
+
+server:
+ address: localhost
+ port: 9090
+ session:
+   timeout: 30
+
