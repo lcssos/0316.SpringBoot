@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <!--控制台日志输出-->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{HH:mm:ss} [%-5level] %logger - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+    <!--<logger name="com.alibaba" level="ERROR" />-->
+
+    <!--<logger name="org.springframework" level="ERROR" />-->
+    <!--<logger name="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" level="ERROR" />-->
+    <!--<logger name="org.springframework.web.servlet.DispatcherServlet" level="ERROR" />-->
+    <!--<logger name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" level="ERROR" />-->
+    <!--<logger name="org.springframework.web.servlet.view.JstlView" level="ERROR" />-->
+
+
+    <!--<logger name="org.apache.zookeeper" level="ERROR" />-->
+    <!--<logger name="org.apache.shiro" level="ERROR" />-->
+    <!--<logger name="net.spy.memcached" level="OFF" />-->
+    <!--<logger name="org.mybatis.spring" level="ERROR" />-->
+    <!--<logger name="org.mybatis.caches.memcached" level="ERROR" />-->
+    <!--<logger name="org.apache.curator" level="ERROR" />-->
+    <!--<logger name="net.sf.ehcache" level="ERROR" />-->
+    <!--<logger name="io.netty.util.internal" level="ERROR" />-->
+    <!--<logger name="org.quartz" level="ERROR" />-->
+    <!--<logger name="org.I0Itec.zkclient" level="ERROR" />-->
+    <!--<logger name="io.netty" level="ERROR" />-->
+    <!--<logger name="org.apache.http" level="ERROR" />-->
+
+    <!--<logger name="com.hhmedic.admin.repository.sys.CacheMapper" level="OFF" />-->
+    <logger name="org.springframework.core.env.PropertySourcesPropertyResolver" level="ERROR" />
+
+	<root level="INFO">
+		<appender-ref ref="console" />
+	</root>
+</configuration>

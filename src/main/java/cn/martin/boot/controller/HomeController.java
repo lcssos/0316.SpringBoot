@@ -2,7 +2,7 @@ package cn.martin.boot.controller;
 
 import cn.martin.boot.component.FooComponent;
 import cn.martin.boot.entity.Login;
-import cn.martin.boot.mapper.LoginMapper;
+import cn.martin.boot.repository.LoginMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
